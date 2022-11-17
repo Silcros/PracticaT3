@@ -47,9 +47,10 @@
             // 
             // txtTelegrama
             // 
-            this.txtTelegrama.Location = new System.Drawing.Point(70, 96);
+            this.txtTelegrama.Location = new System.Drawing.Point(70, 59);
+            this.txtTelegrama.Multiline = true;
             this.txtTelegrama.Name = "txtTelegrama";
-            this.txtTelegrama.Size = new System.Drawing.Size(100, 20);
+            this.txtTelegrama.Size = new System.Drawing.Size(390, 88);
             this.txtTelegrama.TabIndex = 1;
             // 
             // cbUrgente
