@@ -39,26 +39,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(67, 43);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(53, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.Size = new System.Drawing.Size(48, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Texto";
             // 
             // txtTelegrama
             // 
-            this.txtTelegrama.Location = new System.Drawing.Point(70, 59);
-            this.txtTelegrama.Multiline = true;
+            this.txtTelegrama.Location = new System.Drawing.Point(70, 96);
             this.txtTelegrama.Name = "txtTelegrama";
-            this.txtTelegrama.Size = new System.Drawing.Size(390, 88);
+            this.txtTelegrama.Size = new System.Drawing.Size(100, 20);
             this.txtTelegrama.TabIndex = 1;
             // 
             // cbUrgente
             // 
             this.cbUrgente.AutoSize = true;
-            this.cbUrgente.Location = new System.Drawing.Point(70, 193);
+            this.cbUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbUrgente.Location = new System.Drawing.Point(56, 193);
             this.cbUrgente.Name = "cbUrgente";
-            this.cbUrgente.Size = new System.Drawing.Size(70, 17);
+            this.cbUrgente.Size = new System.Drawing.Size(86, 21);
             this.cbUrgente.TabIndex = 2;
             this.cbUrgente.Text = "Urgente?";
             this.cbUrgente.UseVisualStyleBackColor = true;
@@ -66,24 +67,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 293);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(53, 253);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.Size = new System.Drawing.Size(54, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Coste:";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(134, 290);
+            this.txtPrecio.Location = new System.Drawing.Point(128, 253);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.Size = new System.Drawing.Size(139, 20);
             this.txtPrecio.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(412, 283);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(304, 241);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(131, 37);
             this.button1.TabIndex = 5;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -93,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 341);
+            this.ClientSize = new System.Drawing.Size(478, 325);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.label2);
@@ -101,7 +104,7 @@
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Telegrama";
             this.ResumeLayout(false);
             this.PerformLayout();
 
