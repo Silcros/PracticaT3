@@ -20,25 +20,22 @@ namespace PracticaT3
         private void button1_Click(object sender, EventArgs e)
         {
             string textoTelegrama;
-            char tipoTelegrama = ' ';
-            double coste;
+            double coste = ' ';
 
             textoTelegrama = txtTelegrama.Text;
             String[] palabras = textoTelegrama.Split(' ');
             int numPalabras = palabras.Length;
 
-            if (cbUrgente.Checked)
-                tipoTelegrama = 'u';
-
-            if (tipoTelegrama == 'u')
+            if (rbUrgente.Checked == true) 
                 if (numPalabras <= 10)
                     coste = 5;
                 else
                     coste = 5 + 0.75 * (numPalabras - 10);
-            else
+
+            if (rbOrdinario.Checked == true)
                 if (numPalabras <= 10)
                 coste = 2.5;
-            else
+                else
                 coste = 2.5 + 0.5 * (numPalabras - 10);
 
 
